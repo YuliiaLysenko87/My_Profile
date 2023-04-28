@@ -32,6 +32,12 @@ body{
 	top: -6rem;
 }
 
+/* Adjust logo size for smaller screens */
+@media (max-width: 768px) {
+  .logodiv img {
+    width: 50%; /* Adjust the value as per your requirement */
+  }
+
 .article1 h1 img{
 	text-align: center;
 	float: none;
